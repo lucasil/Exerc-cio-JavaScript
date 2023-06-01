@@ -1,0 +1,31 @@
+:root {
+    --corFundo: #7dbfd9;
+    --corCards: #eaecfb;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: var(--corFundo);
+    height: 100vh; /* altura da viewport (tela do navegdor) - vh */
+    width: 100vw; /* largura da viewport (tela do navegdor) - vw */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#menu {
+    background-color: var(--corCards);
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo {
+    background-color: var(--corCards);
+}
