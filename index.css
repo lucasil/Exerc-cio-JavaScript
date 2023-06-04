@@ -21,11 +21,10 @@ main {
 }
 
 #menu {
-    height: 90%;
-    width: 25%;
-    padding: 0px;
-    justify-content:space-between;
-    align-items: center;
+    height: 90vh;
+    width: 25vw;
+    justify-content: center;
+    align-items:end;
     background-color: aquamarine;
 }
 
@@ -47,14 +46,13 @@ main {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    height: 60%;
 }
 
 button {
     font-size: 20px;
     color: var(--corFont);
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: var(--corCards);
     border-width: 0px;   
 }
@@ -68,9 +66,14 @@ button:hover {
     border-top-right-radius: 15px;
 }
 
+#ultimoBotao {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 #conteudo {
     background-color: var(--corCards);
-    height: 90%;
-    width: 70%;
+    height: 90vh;
+    width: 70vw;
     border-radius: 15px;
 }
