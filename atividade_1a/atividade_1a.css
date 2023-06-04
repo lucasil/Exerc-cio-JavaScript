@@ -1,0 +1,23 @@
+#conteudo {
+    text-align: center;
+}
+
+#conteudo button {
+    align-items: center;
+    background-color: var(--corCard);
+    height: 10%;
+    width: 25%;
+    color: var(--corFont);
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#conteudo button:hover {
+    background-color: var(--corCardsHover);
+ }
+
+#conteudo p {
+    color: var(--corFont);
+    font-size: 20px;
+}
