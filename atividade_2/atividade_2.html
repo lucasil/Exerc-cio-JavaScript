@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./atividade_2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício JavaScript</title>
+</head>
+<body>
+    <main>
+        <div id="menu">
+            <div id="titulo">
+                <h1>Exercícios JavaScript</h1>
+                <h2>Padrões Web<br>Márcio Araya</h2>
+            </div>
+            <div id="botoes">
+                <a href="../atividade_1a/atividade_1a.html"><button id="primeiroBotao">Atividade 1 - a</button></a>
+                <a href="../atividade_1b/atividade_1b.html"><button>Atividade 1 - b</button></a>
+                <a href="./atividade_2.html"><button>Atividade 2</button></a>
+                <a href="../atvidade_3/atividade_3.html"><button id="ultimoBotao">Atividade 3</button></a>
+            </div>
+        </div>
+        <div id="conteudo">
+            <div id="form">
+                <div class="inputs">
+                    <label for="id_peso">Informe a seu peso em quilogramas:</label>
+                    <input type="text" name="id_peso" id="id_peso">
+                </div>
+                <div class="inputs">
+                    <label for="id_altura">Informe a sua altura em metros:</label>
+                    <input type="text" name="id_altura" id="id_altura">
+                </div>
+            </div>
+            
+            <button id="botaoCalcula">Clique aqui para calcular seu IMC (índice de Massa Corporal)</button>
+            
+            <div id="respostas">
+                <p>Reultado IMC: <span id="spanIMC"></span></p>
+                <p>Situação: <span id="spanSituacao"></span></p>
+            </div>
+        </div>
+    </main> 
+    <script src="atividade_2.js"></script>
+</body>
+</html>
