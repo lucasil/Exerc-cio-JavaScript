@@ -94,3 +94,9 @@ button:hover {
     width: 75vw;
     border-radius: 15px;
 }
+
+#exercicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
