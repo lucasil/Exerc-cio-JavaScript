@@ -22,11 +22,11 @@ document.getElementById("botaoCalcula").addEventListener("click", () => {
     
     } else if (imc <= 29.99) {
         spanSituacao.innerHTML = "Acima do peso"
-        spanSituacao.style.color = "lightgreen"
+        spanSituacao.style.color = "yellow"
     
     } else if (imc <= 34.99) {
         spanSituacao.innerHTML = "Obesidade I"
-        spanSituacao.style.color = "yellow"
+        spanSituacao.style.color = "lightorange"
     
     } else if (imc <= 39.99) {
         spanSituacao.innerHTML = "Obesidade II"
